@@ -9,11 +9,12 @@ DB = {
     "dbname": os.getenv("DB_NAME"),
     "user": os.getenv("DB_USER"),
     "password": os.getenv("DB_PASSWORD"),
-    "port": os.getenv("DB_PORT")
+    "port": os.getenv("DB_PORT"),
 }
 
 if not all(DB.values()):
     raise ValueError("Missing DB Credentials, Check your .env file")
+
 
 def get_connection():
     return psycopg2.connect(**DB)
