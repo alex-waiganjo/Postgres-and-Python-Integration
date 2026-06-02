@@ -37,13 +37,20 @@
          ```
 
   6. Running scripts to create a table and inserting data
-      -  Run **create_table.py**
-      - Run  **add_data.py**
+      - Run **db_config.py**
+      - Run **create_table.py**
+      - Run **add_data.py**
 
   7. Generate a **requirements.txt** file.
      ```python
      pip freeze > requirements.txt 
      ```
 
-  8. Highlight unnecessary files/folders in the .gitignore file      
+  8. Highlight unnecessary files/folders in the .gitignore file.  
+
+
+# FINAL OUTPUT:
+One Record has been Successfully inserted into the Students Table inside Nairobi_DB Database.
+
+![Record Successfully Inserted into the table](image.png)    
          
