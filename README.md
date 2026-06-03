@@ -11,7 +11,7 @@
 
       Venv\Scripts\activateb # Activate the Environment
       ```
-3.  Create 6 Files
+3.  Create 8 Files
     - .env
     - .env.example
     - db_config.py
@@ -19,7 +19,6 @@
     - create_employee_table.py    
     - add_employee_data.py
     - view_employees.py
-
     - .gitignore
 
 4.  Using Pip Install psycopg2 Adapter and Python Dotenv
